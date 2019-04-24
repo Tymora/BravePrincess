@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    android:orientation="vertical">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Вы принцесса, вас похитили и заперли в высокой башне с драконом и монстрами."
-        android:id="@+id/textViev"
-        android:layout_gravity="center_horizontal" />
+    android:orientation="vertical"
+    android:background="#000000">
 
 
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="В одном далеком сказочном Королевстве, в самой отдалённой его провинции,"
+                android:textSize="24dp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="где в глубоких чащах бродят невиданные создания, а по ночам раздаётся гулкий шёпот, стояла древняя башня."
+                android:textSize="24dp"
+                android:textColor="#ffffff"/>
 
 
-</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
