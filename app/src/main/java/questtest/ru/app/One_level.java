@@ -1,17 +1,19 @@
 package questtest.ru.app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.AsyncTaskLoader;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.os.AsyncTask;
 import android.os.SystemClock;
 
 
-        i
+
 public class One_level extends AppCompatActivity {
 
     OneTable oneTable = new OneTable();
@@ -52,7 +54,7 @@ public class One_level extends AppCompatActivity {
 
 
         textView1.setText(oneTable.onescenario[0]);
-        textView2.setText(oneTable.onescenario[1);
+        textView2.setText(oneTable.onescenario[1]);
         textView3.setText(oneTable.onescenario[2]);
         textView4.setText(oneTable.onescenario[3]);
         textView5.setText(oneTable.onescenario[4]);
@@ -77,11 +79,21 @@ public class One_level extends AppCompatActivity {
         textView11.setVisibility(View.INVISIBLE);
         one_button_next_level.setVisibility(View.INVISIBLE);
 
+        delay.execute();
+
     }
+
+    @Override
+    public void onBackPressed(){
+        delay.cancel(true);
+        delay=null;
+        finish();
+    }
+
     class Delay extends AsyncTask<Void, Integer, Void>{
         @Override
         protected Void doInBackground(Void... params) {
-            while (line <= 22) {
+            while (line <= 12) {
 
                 publishProgress(line++);
                 try {
@@ -111,6 +123,7 @@ public class One_level extends AppCompatActivity {
         final Button one_button_next_level = (Button)findViewById(R.id.one_button_next_level);
 
         final Animation a = AnimationUtils.loadAnimation(One_level.this, R.anim.alpha);
+
         switch (line){
             case 1: textView1.setVisibility(View.VISIBLE); textView1.startAnimation(a);break;
             case 2: textView2.setVisibility(View.VISIBLE); textView2.startAnimation(a);break;
@@ -123,7 +136,16 @@ public class One_level extends AppCompatActivity {
             case 9: textView9.setVisibility(View.VISIBLE); textView9.startAnimation(a);break;
             case 10: textView10.setVisibility(View.VISIBLE); textView10.startAnimation(a);break;
             case 11: textView11.setVisibility(View.VISIBLE); textView11.startAnimation(a);break;
-            case 12: one_button_next_level.setVisibility(View.VISIBLE); one_button_next_level.startAnimation(a);break;
+            case 12: one_button_next_level.setVisibility(View.VISIBLE); one_button_next_level.startAnimation(a);
+                buttonmeny.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        buttonmeny.setBackgroundResource(R.drawable.buttonmeny);
+                        try {
+                            Intent intent = new Intent(MainActivity.this, One_level.class);startActivity(intent);finish();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+
             default: break;
 
         }

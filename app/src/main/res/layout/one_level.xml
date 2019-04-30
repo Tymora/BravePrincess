@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000000">
+    android:background="#000000"
+    android:padding="8dp">
+
 
 
     <ScrollView
@@ -106,9 +108,9 @@
 
             <Button
                 android:id="@+id/one_button_next_level"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background=" @drawable/ru_button_next_level" />
+                android:background="@drawable/ru_button_next_level" />
 
 
         </LinearLayout>
