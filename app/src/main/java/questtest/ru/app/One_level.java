@@ -87,6 +87,11 @@ public class One_level extends AppCompatActivity {
     public void onBackPressed(){
         delay.cancel(true);
         delay=null;
+         {
+            Intent intent = new Intent(One_level.this, MainActivity.class);startActivity(intent);finish();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
         finish();
     }
 
@@ -137,16 +142,18 @@ public class One_level extends AppCompatActivity {
             case 10: textView10.setVisibility(View.VISIBLE); textView10.startAnimation(a);break;
             case 11: textView11.setVisibility(View.VISIBLE); textView11.startAnimation(a);break;
             case 12: one_button_next_level.setVisibility(View.VISIBLE); one_button_next_level.startAnimation(a);
-                buttonmeny.setOnClickListener(new View.OnClickListener() {
+                ru_button_next_level.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        buttonmeny.setBackgroundResource(R.drawable.buttonmeny);
+                        ru_button_next_level.setBackgroundResource(R.drawable.ru_button_next_level);
                         try {
-                            Intent intent = new Intent(MainActivity.this, One_level.class);startActivity(intent);finish();
+                            Intent intent = new Intent(One_level.this, Two_level.class);startActivity(intent);finish();
                         } catch (Exception e) {
                             e.printStackTrace();
+                    }
 
-            default: break;
+                    }
+
 
         }
 
