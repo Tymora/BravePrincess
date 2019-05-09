@@ -22,7 +22,10 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="На стене одиноко висит цифра 3"
+                android:text="Очнувшись после действия зелья принцесса поняла, что стоит в лабиринте с 3 дорогами, сейчас она пошла по...
+1) Правой дороге
+2) Центральной дороге
+3) Левой дороге"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
 
