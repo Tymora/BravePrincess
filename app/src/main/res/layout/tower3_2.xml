@@ -23,9 +23,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="
-1) Смело идти вперед. Отвага всегда сопутствует удача!
 
-Принцесса твердо сжала губы и решительно двинулась вперед. Галерея была очень длинной, но спустя час Принцесса еще на один этаж ближе к победе.
+2) центральной дороге
+
+И вышла на кухню
+
+
+
+
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

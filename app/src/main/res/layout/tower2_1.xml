@@ -22,17 +22,21 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ну что, попробуешь еще раз?"
+                android:text="
+1) Разбить несколько колб будет хорошим планом!
+Нет, это был плохой план. Дракон проснулся! И взмахом крыла вновь погрузил в сон беглянку. Очнулась она опять на верху Башни.
+"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
 
 
 
             <Button
-                android:id="@+id/one_button_next_level"
+                android:id="@+id/ru_button_next_level"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ru_button_next_level" />
+
 
 
         </LinearLayout>

@@ -25,13 +25,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Two_level"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
     </application>
 
 </manifest>
