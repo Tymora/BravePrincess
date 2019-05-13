@@ -89,7 +89,7 @@ public class One_level extends AppCompatActivity {
         delay=null;
          {
             Intent intent = new Intent(One_level.this, MainActivity.class);startActivity(intent);finish();
-        } catch (Exception e){
+        } catch(Exception e) {
             e.printStackTrace();
         }
         finish();
@@ -102,7 +102,7 @@ public class One_level extends AppCompatActivity {
 
                 publishProgress(line++);
                 try {
-                    Thread.sleep(5000);
+                    Thread.sleep(3000);
                     if (isCancelled()) return null;
                 } catch(Exception e) {
                 }

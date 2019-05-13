@@ -38,7 +38,7 @@
 
 
             <Button
-                android:id="@+id/ru_button_next_level"
+                android:id="@+id/button_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ru_button_next_level" />
