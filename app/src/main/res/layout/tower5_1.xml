@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="8dp">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Контраст был разителен, после красивых картин длинный коридоров на этом этаже Принцессу ждала самая обычная, если конечно, можно назвать обычной, магическая лаборатория. Всюду стояли разноцветные колбы, витал сиреневый дым и пахло травами. Принцесса подумала, что:
+1) Разбить несколько колб будет хорошим планом!
+2) Потратить время, но изучить несколько гримуаров.
+3) Двигаться к выходу."
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+
+
+            <Button
+                android:id="@+id/button_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_one" />
+            <Button
+                android:id="@+id/button_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_two" />
+            <Button
+                android:id="@+id/button_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_three" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

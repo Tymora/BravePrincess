@@ -29,25 +29,27 @@
 3) Разбежаться и перепрыгнуть гоблина! "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
+            <LayoutVert>
+                <horisontal layout>
 
+                    <Button
+            android:id="@+id/button_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_one" />
+                    <Button
+            android:id="@+id/button_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_two" />
+                    <Button
+            android:id="@+id/button_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_three" />
+                </horisontal>
+            </LayoutVert>
 
-            <Button
-                android:id="@+id/button_one"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_one" />
-
-            <Button
-                android:id="@+id/button_two"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_two" />
-
-            <Button
-                android:id="@+id/button_three"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_three" />
 
 
         </LinearLayout>
