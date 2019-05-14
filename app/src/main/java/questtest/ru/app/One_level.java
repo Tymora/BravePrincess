@@ -14,7 +14,7 @@ import android.os.SystemClock;
 
 
 
-public class One_level extends AppCompatActivity {
+/*public class One_level extends AppCompatActivity {
 
     OneTable oneTable = new OneTable();
     Delay delay = new Delay();
@@ -87,9 +87,8 @@ public class One_level extends AppCompatActivity {
     public void onBackPressed(){
         delay.cancel(true);
         delay=null;
-         {
-            Intent intent = new Intent(One_level.this, MainActivity.class);startActivity(intent);finish();
-        } catch(Exception e) {
+        try { Intent intent = new Intent(One_level.this, MainActivity.class);startActivity(intent);finish();
+        }catch(Exception e) {
             e.printStackTrace();
         }
         finish();
@@ -141,22 +140,18 @@ public class One_level extends AppCompatActivity {
             case 9: textView9.setVisibility(View.VISIBLE); textView9.startAnimation(a);break;
             case 10: textView10.setVisibility(View.VISIBLE); textView10.startAnimation(a);break;
             case 11: textView11.setVisibility(View.VISIBLE); textView11.startAnimation(a);break;
-            case 12: one_button_next_level.setVisibility(View.VISIBLE); one_button_next_level.startAnimation(a);
-                ru_button_next_level.setOnClickListener(new View.OnClickListener() {
+            case 12: ru_button_next_level.setVisibility(View.VISIBLE); ru_button_next_level.startAnimation(a);
+
+                ru_button_next_level.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v) {
                         ru_button_next_level.setBackgroundResource(R.drawable.ru_button_next_level);
                         try {
-                            Intent intent = new Intent(One_level.this, Two_level.class);startActivity(intent);finish();
+                            Intent intent = new Intent(One_level.this, Tower_Six.class);startActivity(intent);finish();
                         } catch (Exception e) {
-                            e.printStackTrace();
+                            e.printStackTrace(); }
                     }
-
-                    }
-
-
+                });
         }
-
     }
-    }
-    }
+   }*/

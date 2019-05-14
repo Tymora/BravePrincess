@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 buttonmeny.setBackgroundResource(R.drawable.buttonmeny);
                 try {
-                    Intent intent = new Intent(MainActivity.this, One_level.class);startActivity(intent);finish();
+                    Intent intent = new Intent(MainActivity.this, Tower_Six.class);startActivity(intent);finish();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
