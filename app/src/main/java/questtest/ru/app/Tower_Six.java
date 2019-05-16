@@ -17,14 +17,39 @@ public class Tower_Six extends AppCompatActivity {
         final Button button_two6 = (Button) findViewById(R.id.button_two6);
         final Button button_three6 = (Button) findViewById(R.id.button_three6);
         button_one6.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 button_one6.setBackgroundResource(R.drawable.button_one);
-                Switch(v.getId()){
-                    case R.id.button_back6_1
+                try {
+                    Intent intent = new Intent(Tower_Six.this, Tower6_1.class);startActivity(intent);finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
 
+            }
+        });
+        button_two6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button_two6.setBackgroundResource(R.drawable.button_two);
+                try {
+                    Intent intent = new Intent(Tower_Six.this, Tower6_2.class);startActivity(intent);finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        button_three6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button_three6.setBackgroundResource(R.drawable.button_three);
+                try {
+                    Intent intent = new Intent(Tower_Six.this, Tower65.class);startActivity(intent);finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
     }

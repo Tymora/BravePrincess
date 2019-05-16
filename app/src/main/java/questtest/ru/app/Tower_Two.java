@@ -12,21 +12,43 @@ public class Tower_Two extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tower_two);
-        final Button buttonmeny = (Button) findViewById(R.id.);
-        final Button buttonmeny = (Button) findViewById(R.id.menuButton);
-        final Button buttonmeny = (Button) findViewById(R.id.menuButton);
-
-        buttonmeny.setOnClickListener(new View.OnClickListener() {
+        final Button button_one2 = (Button) findViewById(R.id.button_one2);
+        final Button button_two2 = (Button) findViewById(R.id.button_two2);
+        final Button button_three2 = (Button) findViewById(R.id.button_three2);
+        button_one2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buttonmeny.setBackgroundResource(R.drawable.buttonmeny);
+                button_one2.setBackgroundResource(R.drawable.button_one);
                 try {
-                    Intent intent = new Intent(Tower_Two.this, Tower_One.class);startActivity(intent);finish();
+                    Intent intent = new Intent(Tower_Two.this, Tower2_1.class);startActivity(intent);finish();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
 
 
+            }
+        });
+        button_two2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button_two2.setBackgroundResource(R.drawable.button_two);
+                try {
+                    Intent intent = new Intent(Tower_Two.this, Tower2_2.class);startActivity(intent);finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        button_three2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button_three2.setBackgroundResource(R.drawable.button_three);
+                try {
+                    Intent intent = new Intent(Tower_Two.this, Tower21.class);startActivity(intent);finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
     }
