@@ -25,7 +25,11 @@
                 android:text="Очнувшись после действия зелья принцесса поняла, что стоит в лабиринте с 3 дорогами, сейчас она пошла по...
 1) Правой дороге
 2) Центральной дороге
-3) Левой дороге"
+3) Левой дороге
+
+
+
+"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
 
@@ -37,19 +41,19 @@
 
 
                 <Button
-                    android:id="@+id/button_one"
+                    android:id="@+id/button_one3"
                     android:layout_width="117dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_one" />
 
                 <Button
-                    android:id="@+id/button_two"
+                    android:id="@+id/button_two3"
                     android:layout_width="137dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_two" />
 
                 <Button
-                    android:id="@+id/button_three"
+                    android:id="@+id/button_three3"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_three" />

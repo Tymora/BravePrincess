@@ -24,7 +24,11 @@
                 android:layout_height="wrap_content"
                 android:text="И сразу же уткнулась в свору мелких гоблинов-поварят. Секундное замешательство и принцесса решает...
 
- "
+1) Бежать
+2) Бежать быстрее
+3) Бежать максимально быстро!
+
+"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
 
@@ -36,19 +40,19 @@
 
 
                 <Button
-                    android:id="@+id/button_one"
+                    android:id="@+id/button_one2"
                     android:layout_width="117dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_one" />
 
                 <Button
-                    android:id="@+id/button_two"
+                    android:id="@+id/button_two2"
                     android:layout_width="137dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_two" />
 
                 <Button
-                    android:id="@+id/button_three"
+                    android:id="@+id/button_three2"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_three" />

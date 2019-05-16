@@ -36,19 +36,19 @@
 
 
                 <Button
-                    android:id="@+id/button_one"
+                    android:id="@+id/button_one1"
                     android:layout_width="117dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_one" />
 
                 <Button
-                    android:id="@+id/button_two"
+                    android:id="@+id/button_two1"
                     android:layout_width="137dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_two" />
 
                 <Button
-                    android:id="@+id/button_three"
+                    android:id="@+id/button_three1"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_three" />

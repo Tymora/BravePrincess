@@ -12,4 +12,23 @@ public class Tower_Two extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tower_two);
+        final Button buttonmeny = (Button) findViewById(R.id.);
         final Button buttonmeny = (Button) findViewById(R.id.menuButton);
+        final Button buttonmeny = (Button) findViewById(R.id.menuButton);
+
+        buttonmeny.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                buttonmeny.setBackgroundResource(R.drawable.buttonmeny);
+                try {
+                    Intent intent = new Intent(Tower_Two.this, Tower_One.class);startActivity(intent);finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
+    }
+}
+
