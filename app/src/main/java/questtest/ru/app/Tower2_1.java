@@ -11,7 +11,7 @@ public class Tower2_1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.tower2_1);
         final Button ru_button_next_level = (Button) findViewById(R.id.button_back2_1);
         ru_button_next_level.setOnClickListener(new View.OnClickListener() {
             @Override

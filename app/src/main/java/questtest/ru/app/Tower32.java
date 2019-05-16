@@ -11,7 +11,7 @@ public class Tower32 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.tower3_2);
         final Button ru_button_next_level = (Button) findViewById(R.id.button3);
         ru_button_next_level.setOnClickListener(new View.OnClickListener() {
             @Override
