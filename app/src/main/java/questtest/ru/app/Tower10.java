@@ -17,12 +17,8 @@ public class Tower10 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ru_button_next_level.setBackgroundResource(R.drawable.ru_button_next_level);
-                try {
-                    Intent intent = new Intent(Tower10.this, Tower_Five.class);startActivity(intent);finish();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
+                finish();
+                System.exit(0);
 
             }
         });
