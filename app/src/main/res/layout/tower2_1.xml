@@ -23,8 +23,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="
-1) Разбить несколько колб будет хорошим планом!
-Нет, это был плохой план. Дракон проснулся! И взмахом крыла вновь погрузил в сон беглянку. Очнулась она опять на верху Башни.
+1) Бежать
+
+Увы, вас поймали и заперли на верхнем этаже башни.
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
