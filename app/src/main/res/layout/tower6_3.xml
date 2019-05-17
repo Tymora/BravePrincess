@@ -23,8 +23,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="
-3) достать заколку из роскошных волос. Замок выглядит уж слишком простым
+3) Достать заколку из роскошных волос. Замок выглядит уж слишком простым
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Замок оказался еще проще, чем думала принцесса, даже ее навыков хватило, чтоб в считанные минуты замок тихо щелкнул и открыл путь к лестнице вниз
 "
                 android:textColor="#ffffff"

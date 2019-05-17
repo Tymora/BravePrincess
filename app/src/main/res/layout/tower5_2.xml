@@ -24,10 +24,16 @@
                 android:layout_height="wrap_content"
                 android:text="
 2) Тихо и осторожно ступать вперед.
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
-Галерея была очень длинной и казалось бесконечно. Спустя несколько часов Принцесса поняла, что не успеет до рассвета, пришлось возвращаться и ждать следующего вечера.
-
-
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+Галерея была очень длинной и казалось бесконечной. Спустя несколько часов принцесса поняла, что не успеет до рассвета, пришлось возвращаться и ждать следующего вечера.
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

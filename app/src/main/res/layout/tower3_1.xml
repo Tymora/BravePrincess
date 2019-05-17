@@ -24,8 +24,17 @@
                 android:layout_height="wrap_content"
                 android:text="
 1) Правой дороге
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
-И вернулась к своей комнате, теперь придется дожидаться следующего вечера
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+И вернулась к началу лабиринта, придется дожидаться следующего вечера
+
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

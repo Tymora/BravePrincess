@@ -24,7 +24,15 @@
                 android:layout_height="wrap_content"
                 android:text="
 3) Разбежаться и перепрыгнуть гоблина!
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Принцесса, как мы уже знаем, умела бегать, а вот то что она умела еще и прыгать узнали только что. А гоблин этого не знал и сильно удивился бегущей на него принцессе (обычно все бывает наоборот!) и от неожиданности присел. Принцесса с легкостью перескочила через него и ловко выскользнула на свободу!
 "
                 android:textColor="#ffffff"

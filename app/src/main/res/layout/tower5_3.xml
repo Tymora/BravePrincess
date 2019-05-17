@@ -25,9 +25,16 @@
                 android:text="
 3) Обыскать картины, наверняка они открывают быстрый проход вниз
 
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Обыск был бесполезен, это действительно самые обычные картины. Принцесса вернулась к себе в комнату и стала готовиться к следующей попытке.
-
-
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

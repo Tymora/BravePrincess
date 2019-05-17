@@ -24,14 +24,37 @@
                 android:layout_height="wrap_content"
                 android:text="Очнувшись после действия зелья принцесса поняла, что стоит в лабиринте с 3 дорогами, сейчас она пошла по...
 
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 1) Правой дороге
 
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 2) Центральной дороге
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 3) Левой дороге
-
-
-
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

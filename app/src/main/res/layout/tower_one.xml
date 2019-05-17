@@ -23,11 +23,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Запыхавшаяся Принцесса выбежала на Первый этаж. Длинные стойки с мечами, копьями и топорами стояли вдоль стен, это был Арсенал. Выход (а вообще-то вход) охранял сонный гоблин, всего один шаг до свободы! Но гоблин был настороже и уже двигался к Принцессе. Последний шанс
+ "
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 1) Принцесса решилась схватить с ближайшей стойки оружие и победить гоблина!
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 2) Схватить оружие, но кинуть его в гоблина, чтобы отвлечь внимание и проскользнуть к двери!
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 3) Разбежаться и перепрыгнуть гоблина! "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

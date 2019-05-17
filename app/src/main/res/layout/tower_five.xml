@@ -23,14 +23,41 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="После спуска по лестнице Принцессу ждала красивая галерея, увешенная картинами. Тут были и драконы и рыцари и принцессы. Не ясно по какому признаку отбирал хозяин башни картины в свою коллекцию. Принцесса решилась..
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 1) Смело идти вперед. Отвага всегда сопутствует удача!
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 2) Тихо и осторожно ступать вперед.
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 3) Обыскать картины, наверняка они открывают быстрый проход вниз"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
+
 
 
 

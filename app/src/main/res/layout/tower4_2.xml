@@ -24,12 +24,21 @@
                 android:layout_height="wrap_content"
                 android:text="
 2) Потратить время, но изучить несколько стеллажей.
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Удача сопутствует смелым! На первой же полке ближайшего стеллажа она обнаружила надпись “зелья телепортации” и не мешкая выпила одну из колб.
 
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
+
 
 
 

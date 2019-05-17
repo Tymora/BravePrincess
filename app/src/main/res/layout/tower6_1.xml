@@ -23,11 +23,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="
-1) решилась сплести из постельного белья, штор и скатерти веревку - башня не так уж и высока, длинны веревки наверняка хватит до земли!
+1) Решилась сплести из постельного белья, штор и скатерти веревку - башня не так уж и высока, длинны веревки наверняка хватит до земли!\n
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Длины не хватило, принцесса полезла обратно, упустила время и ей пришлось дожидаться следующего вечера "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
+
 
 
 

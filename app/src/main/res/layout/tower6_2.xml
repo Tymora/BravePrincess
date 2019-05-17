@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000000"
+    android:background="#121212"
     android:padding="8dp">
 
 
@@ -23,15 +23,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="
-2) тщательно обыскать комнату - наверняка тут спрятан потайной механизм открывающий секретный выход!
+2) Тщательно обыскать комнату - наверняка тут спрятан потайной механизм открывающий секретный выход! /n
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:typeface="serif" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Поиски были долги и кропотливы, но никаких тайных механизмов ей обнаружить не удалось, теперь придется ждать следующего вечера.
-
-
 
 "
                 android:textColor="#ffffff"
-                android:textSize="24dp" />
+                android:textSize="24dp"
+                android:typeface="serif" />
 
 
 

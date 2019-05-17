@@ -25,6 +25,15 @@
                 android:text="
 3) Бежать максимально быстро
 
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Ура, они не ожидали такой прыти от принцессы и оторвавшись от них ты спускаешься на следующий этаж башни.
 "
                 android:textColor="#ffffff"

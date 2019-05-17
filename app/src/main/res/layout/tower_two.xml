@@ -23,13 +23,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="И сразу же уткнулась в свору мелких гоблинов-поварят. Секундное замешательство и принцесса решает...
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 1) Бежать
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 2) Бежать быстрее
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 3) Бежать максимально быстро!
-
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

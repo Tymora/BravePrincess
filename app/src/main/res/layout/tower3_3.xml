@@ -24,10 +24,16 @@
                 android:layout_height="wrap_content"
                 android:text="
 3) Левой дороге
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 Дорога заканчивалась тупиком, время было упущено. Придется возвращаться обратно.
-
-
 "
                 android:textColor="#ffffff"
                 android:textSize="24dp" />

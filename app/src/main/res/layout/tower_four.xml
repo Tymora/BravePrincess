@@ -23,16 +23,38 @@
                 android:layout_height="wrap_content"
                 android:text="Контраст был разителен, после красивых картин длинный коридоров на этом этаже Принцессу ждала самая обычная, если конечно, можно назвать обычной, магическая лаборатория. Всюду стояли разноцветные колбы, витал сиреневый дым и пахло травами. Принцесса подумала, что:
 
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 1) Разбить несколько колб будет хорошим планом!
 
-2) Потратить время, но изучить несколько стеллажей.
-
-3) Двигаться к выходу.
-
-
 "
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+2) Потратить время, но изучить несколько стеллажей.
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+3) Двигаться к выходу.
+"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
 

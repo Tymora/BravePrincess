@@ -23,12 +23,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Принцесса с надеждой смотрела на лес из окна башни. Солнце почти скрылось за макушками деревьев и это был ее шанс на побег! К вечеру дракон становился ленивым и почти всегда спал на крыше. Если действовать быстро и бесшумно, то в этот раз наверняка все получится! Принцесса оглянулась и в этот раз...
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
-
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 1) решилась сплести из постельного белья, штор и скатерти веревку - башня не так уж и высока, длины веревки наверняка хватит до земли!
+"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
 
+            <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
 2) тщательно обыскать комнату - наверняка тут спрятан потайной механизм открывающий секретный выход!
+"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
 3) достать заколку из роскошных волос. Замок выглядит уж слишком простым"
                 android:textColor="#ffffff"
                 android:textSize="24dp" />
